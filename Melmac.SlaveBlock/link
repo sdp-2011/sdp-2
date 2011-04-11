@@ -1,0 +1,6 @@
+cd build/classes
+cp -r ../../../Melmac.Core/build/classes/melmac .
+lejoslink -o ../../Melmac.SlaveBlock.rcx --verbose melmac.slaveblock.Program > ../../lejoslink.out
+cd ../..
+rm -rf build/classes
+mkdir build/classes

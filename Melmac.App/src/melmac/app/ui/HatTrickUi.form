@@ -1,0 +1,786 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="colourButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="pitchButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="attackingButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="gameTypeButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Component id="mainFrame" min="-2" pref="538" max="-2" attributes="0"/>
+              <EmptySpace pref="25" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainFrame" pref="372" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="mainFrame">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="mainFrameKeyPressed"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="initialisePanel">
+          <Events>
+            <EventHandler event="componentShown" listener="java.awt.event.ComponentListener" parameters="java.awt.event.ComponentEvent" handler="initialisePanelComponentShown"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Initialise">
+                <Property name="tabTitle" type="java.lang.String" value="Initialise"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="colourLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="blueRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="yellowRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="leftRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="attackingLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rightRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="mainPitchRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="sidePitchRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="simulatorRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="realRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="gameTypeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="commInfoLabel" alignment="0" min="-2" max="-2" attributes="1"/>
+                                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="portTextField" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="hostNameTextField" alignment="0" pref="63" max="32767" attributes="1"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="pitchLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="startButton" pref="70" max="32767" attributes="1"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="stopButton" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="172" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="colourLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="pitchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="blueRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mainPitchRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="yellowRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sidePitchRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="attackingLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="gameTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="commInfoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="leftRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="realRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hostNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="rightRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="simulatorRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="portTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="stopButton" max="32767" attributes="1"/>
+                          <Component id="startButton" alignment="0" pref="69" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="84" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JRadioButton" name="blueRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="colourButtonGroup"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Blue"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="yellowRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="colourButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Yellow"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="leftRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="attackingButtonGroup"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Left"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="rightRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="attackingButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Right"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="colourLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Robot Colour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="attackingLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Attacking "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="startButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Start"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="stopButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Stop"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stopButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="mainPitchRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="pitchButtonGroup"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Main Pitch"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="sidePitchRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="pitchButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Side Pitch"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="pitchLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pitch Setting"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="gameTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Game Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="realRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gameTypeButtonGroup"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Real"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JRadioButton" name="simulatorRadioButton">
+              <Properties>
+                <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                  <ComponentRef name="gameTypeButtonGroup"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Simulator"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="hostNameTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="guarneri"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="portTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20001"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="commInfoLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Host Name and Port Number"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="manualControlPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Manual Control">
+                <Property name="tabTitle" type="java.lang.String" value="Manual Control"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="spinLButton" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LButton" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="stopMoveButton" max="32767" attributes="1"/>
+                                          <Component id="forwardButton" alignment="0" pref="41" max="32767" attributes="1"/>
+                                          <Component id="reverseButton" alignment="0" pref="41" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="spinRButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="RButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="kickButton" pref="175" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="xTextField" min="-2" pref="40" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="yTextField" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="directionAngleTextField" min="-2" pref="47" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="curvedMovedActivateButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="curvedMoveDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="inputAnglePowerLabel" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="angleTextField" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="powerTextField" min="-2" pref="46" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="spinActivateButton" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="moveActivateButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="victoryDanceButton" alignment="0" min="-2" pref="116" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane1" min="-2" pref="250" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="applyStrategyButton" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="forwardButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinRButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="stopMoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="RButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="reverseButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="inputAnglePowerLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="angleTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="powerTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="spinActivateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="moveActivateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="curvedMoveDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="xTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="curvedMovedActivateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="directionAngleTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="yTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="spinLButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="kickButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="victoryDanceButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="applyStrategyButton" min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="forwardButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="F"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="forwardButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="LButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="L"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="spinLButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S L"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spinLButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="spinRButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S R"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spinRButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="RButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="reverseButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="B"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="reverseButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="kickButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kick"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kickButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="victoryDanceButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Victory Dance"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="victoryDanceButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="stopMoveButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="S"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stopMoveButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="angleTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="powerTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="moveActivateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Move"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="moveActivateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="spinActivateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Spin"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spinActivateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="inputAnglePowerLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Input for Spin Angle and Power"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="curvedMovedActivateButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Curved Move"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="curvedMovedActivateButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="directionAngleTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="xTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="curvedMoveDescriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Input for direction Angle and Distance"/>
+                <Property name="toolTipText" type="java.lang.String" value="There are four fields. The top left sets the spin angle, and the top right sets the power. The bottom left sets the direction angle and the bottom right sets the distance. All four fields are set to 20 by default."/>
+                <Property name="focusable" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="yTextField">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="20"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="applyStrategyButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Apply"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="applyStrategyButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JList" name="strategyList">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                      <StringArray count="1">
+                        <StringItem index="0" value=" "/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="worldInfoPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="World Info">
+                <Property name="tabTitle" type="java.lang.String" value="World Info"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="selfPositionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="selfXLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="selfYLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="attackingBoundLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="colourBoundLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="opponentXLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="opponentYLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="opponentPositionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ballPositionLabel" alignment="0" min="-2" pref="178" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ballXLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="ballYLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="currentStrategyLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="334" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="selfPositionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="selfYLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="selfXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="attackingBoundLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="colourBoundLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="currentStrategyLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="opponentPositionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="opponentYLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="opponentXLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ballPositionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ballXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ballYLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="140" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="selfPositionLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Our Position"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="selfXLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ourX"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="selfYLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ourY"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="opponentPositionLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Opponent Position"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="opponentXLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="opX"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="opponentYLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="opY"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ballPositionLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="DejaVu Sans" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ball Position"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ballXLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ballX"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ballYLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="ballY"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="attackingBoundLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="attacking"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="colourBoundLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="colour"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="currentStrategyLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="currentStrategy"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="consolePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Console">
+                <Property name="tabTitle" type="java.lang.String" value="Console"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="consoleScrollPanel" pref="509" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="consoleScrollPanel" pref="316" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="consoleScrollPanel">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="consoleTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

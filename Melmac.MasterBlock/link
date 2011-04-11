@@ -1,0 +1,1 @@
+nxjlink -cp "build/classes:../Melmac.Core/build/classes" -v -o Melmac.MasterBlock.nxj melmac.masterblock.Program > nxjlink.out

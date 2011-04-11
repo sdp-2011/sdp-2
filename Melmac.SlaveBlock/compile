@@ -1,0 +1,3 @@
+rm -rf build/classes
+mkdir build/classes
+lejosjc -sourcepath src -cp ../Melmac.Core/build/classes -source 1.2 -d build/classes src/melmac/slaveblock/Program.java

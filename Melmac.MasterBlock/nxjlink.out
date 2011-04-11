@@ -1,0 +1,624 @@
+Class 0: java.lang.Object
+Class 1: java.lang.Throwable
+Class 2: java.lang.Error
+Class 3: java.lang.OutOfMemoryError
+Class 4: boolean
+Class 5: char
+Class 6: float
+Class 7: double
+Class 8: byte
+Class 9: short
+Class 10: int
+Class 11: long
+Class 12: void
+Class 13: [Ljava/lang/Object;
+Class 14: java.lang.NoSuchMethodError
+Class 15: java.lang.StackOverflowError
+Class 16: java.lang.NullPointerException
+Class 17: [Z
+Class 18: [C
+Class 19: [F
+Class 20: [D
+Class 21: [B
+Class 22: [S
+Class 23: [I
+Class 24: [J
+Class 25: [V
+Class 26: java.lang.ClassCastException
+Class 27: java.lang.ArithmeticException
+Class 28: java.lang.ArrayIndexOutOfBoundsException
+Class 29: java.lang.IllegalArgumentException
+Class 30: java.lang.InterruptedException
+Class 31: java.lang.IllegalStateException
+Class 32: java.lang.IllegalMonitorStateException
+Class 33: java.lang.ThreadDeath
+Class 34: java.lang.ArrayStoreException
+Class 35: java.lang.NegativeArraySizeException
+Class 36: java.lang.Class
+Class 37: java.lang.String
+Class 38: java.lang.Cloneable
+Class 39: java.lang.Thread
+Class 40: lejos.nxt.comm.Bluetooth$BTThread
+Class 41: lejos.nxt.Motor$Regulator
+Class 42: lejos.nxt.ListenerThread
+Class 43: melmac.core.threading.ThreadImpl
+Class 44: melmac.core.logging.CommunicationsLogger
+Class 45: melmac.masterblock.logging.JavaLogger
+Class 46: melmac.core.logging.LoggerBase
+Class 47: melmac.masterblock.logging.ScreenLogger
+Class 48: melmac.masterblock.comms.RcxCommunications
+Class 49: melmac.core.comms.CommunicationsBase
+Class 50: melmac.core.comms.DataInputStreamCommunications
+Class 51: melmac.masterblock.comms.JavaCommunications
+Class 52: melmac.core.comms.ControllingLightCommunications
+Class 53: melmac.core.comms.LightCommunications
+Class 54: melmac.masterblock.comms.RcxLightReceiver
+Class 55: melmac.masterblock.control.CollisionListener
+Class 56: lejos.nxt.SensorPort
+Class 57: melmac.masterblock.comms.handlers.MoveMessageHandler
+Class 58: melmac.core.comms.handlers.LogMessageHandler
+Class 59: melmac.masterblock.comms.handlers.StopMessageHandler
+Class 60: melmac.masterblock.comms.handlers.SpinMessageHandler
+Class 61: melmac.masterblock.comms.handlers.CollisionMessageHandler
+Class 62: melmac.masterblock.comms.handlers.KickMessageHandler
+Class 63: melmac.masterblock.comms.handlers.CurvedMoveMessageHandler
+Class 64: melmac.masterblock.comms.handlers.ResetMessageHandler
+Class 65: melmac.core.comms.AsyncMessageProcessor
+Class 66: melmac.core.comms.AsyncMessageSender
+Class 67: melmac.core.comms.LightReceiver
+Class 68: melmac.core.comms.Watchdog
+Class 69: melmac.core.comms.MessageProcessor
+Class 70: melmac.core.comms.Communications
+Class 71: melmac.core.control.CollisionHandlerBase
+Class 72: melmac.masterblock.control.CollisionHandler
+Class 73: melmac.masterblock.comms.NxtDataInputStreamReceiver
+Class 74: melmac.core.threading.ProcessBase
+Class 75: melmac.core.comms.MessageSender
+Class 76: melmac.core.threading.AsyncProcess
+Class 77: melmac.core.comms.DataInputStreamReceiver
+Class 78: lejos.nxt.MotorPort
+Class 79: lejos.nxt.Motor
+Class 80: melmac.core.threading.AsyncProcess$Runner
+Class 81: melmac.masterblock.Program
+Class 82: java.lang.System
+Class 83: java.lang.StringBuilder
+Class 84: java.lang.RuntimeException
+Class 85: java.lang.Exception
+Class 86: java.lang.IndexOutOfBoundsException
+Class 87: java.lang.StringIndexOutOfBoundsException
+Class 88: java.lang.StringUtils
+Class 89: java.lang.Runnable
+Class 90: melmac.masterblock.control.Controller
+Class 91: [Ljava/lang/String;
+Class 92: melmac.core.logging.Logger
+Class 93: java.io.PrintStream
+Class 94: lejos.nxt.LCDOutputStream
+Class 95: java.lang.Character
+Class 96: java.lang.Math
+Class 97: java.lang.StringBuffer
+Class 98: melmac.core.logging.SourceExt
+Class 99: melmac.core.logging.SeverityExt
+Class 100: melmac.core.logging.LogMessageExt
+Class 101: lejos.nxt.LCD
+Class 102: lejos.nxt.comm.Bluetooth
+Class 103: melmac.core.comms.DataInputStreamCommunications$DataStreams
+Class 104: lejos.nxt.comm.NXTConnection
+Class 105: melmac.core.logging.LogMessages
+Class 106: lejos.nxt.LightSensor
+Class 107: [Llejos/nxt/SensorPort;
+Class 108: lejos.nxt.SensorPort$SensorReader
+Class 109: lejos.nxt.SensorPort$StandardReader
+Class 110: lejos.nxt.SensorPortListener
+Class 111: lejos.nxt.ListenerCaller
+Class 112: [Llejos/nxt/SensorPortListener;
+Class 113: melmac.core.comms.MessageHandler
+Class 114: java.io.OutputStream
+Class 115: java.io.IOException
+Class 116: java.util.Random
+Class 117: melmac.core.utils.Constants
+Class 118: melmac.core.logging.LogMessagesExt
+Class 119: java.io.DataOutputStream
+Class 120: [[I
+Class 121: [Lmelmac/core/comms/MessageHandler;
+Class 122: lejos.nxt.comm.NXTCommDevice
+Class 123: lejos.nxt.comm.BTConnection
+Class 124: lejos.nxt.SystemSettings
+Class 125: [Llejos/nxt/comm/BTConnection;
+Class 126: lejos.nxt.comm.NXTInputStream
+Class 127: lejos.nxt.comm.NXTOutputStream
+Class 128: java.io.DataInputStream
+Class 129: lejos.util.Delay
+Class 130: lejos.nxt.BasicMotor
+Class 131: lejos.nxt.Battery
+Class 132: melmac.core.control.CollisionListenerBase
+Class 133: melmac.core.threading.Process
+Class 134: lejos.nxt.Poll
+Class 135: [Llejos/nxt/ListenerCaller;
+Class 136: lejos.nxt.BasicSensorPort
+Class 137: melmac.core.threading.Subscriber
+Class 138: java.io.FilterOutputStream
+Class 139: melmac.core.threading.ThreadFactory
+Class 140: lejos.nxt.Flash
+Class 141: java.io.InputStream
+Class 142: java.io.FilterInputStream
+Class 143: java.io.EOFException
+Class 144: lejos.nxt.BasicMotorPort
+Class 145: lejos.robotics.Encoder
+Class 146: melmac.core.threading.Runnable
+Class 147: melmac.core.threading.UnnamedThreadFactory
+Class 148: lejos.nxt.FlashError
+Class 149: lejos.nxt.NXT
+Method 0: Class: java.lang.Object Signature: <init>()V PC 11532 Signature id 2
+Method 1: Class: java.lang.Object Signature: notifyAll()V Native id 5
+Method 2: Class: java.lang.Object Signature: wait()V Native id 6
+Method 3: Class: java.lang.Object Signature: wait(J)V Native id 7
+Method 4: Class: java.lang.Throwable Signature: <init>()V PC 11533 Signature id 2
+Method 5: Class: java.lang.Throwable Signature: <init>(Ljava/lang/String;)V PC 11538 Signature id 119
+Method 6: Class: java.lang.Error Signature: <init>(Ljava/lang/String;)V PC 11548 Signature id 119
+Method 7: Class: java.lang.String Signature: <init>([CII)V PC 11554 Signature id 126
+Method 8: Class: java.lang.String Signature: <init>([C)V PC 11582 Signature id 127
+Method 9: Class: java.lang.String Signature: length()I PC 11591 Signature id 132
+Method 10: Class: java.lang.String Signature: charAt(I)C PC 11597 Signature id 133
+Method 11: Class: java.lang.String Signature: equals(Ljava/lang/Object;)Z PC 11622 Signature id 115
+Method 12: Class: java.lang.Thread Signature: isAlive()Z PC 11694 Signature id 153
+Method 13: Class: java.lang.Thread Signature: init(Ljava/lang/String;Ljava/lang/Runnable;)V PC 11708 Signature id 154
+Method 14: Class: java.lang.Thread Signature: <init>()V PC 11751 Signature id 2
+Method 15: Class: java.lang.Thread Signature: run()V PC 11763 Signature id 1
+Method 16: Class: java.lang.Thread Signature: start()V Native id 9
+Method 17: Class: java.lang.Thread Signature: yield()V Native id 10
+Method 18: Class: java.lang.Thread Signature: sleep(J)V Native id 11
+Method 19: Class: java.lang.Thread Signature: currentThread()Ljava/lang/Thread; Native id 12
+Method 20: Class: java.lang.Thread Signature: getPriority()I Native id 13
+Method 21: Class: java.lang.Thread Signature: setPriority(I)V Native id 14
+Method 22: Class: java.lang.Thread Signature: interrupt()V Native id 15
+Method 23: Class: java.lang.Thread Signature: interrupted()Z Native id 16
+Method 24: Class: java.lang.Thread Signature: isDaemon()Z Native id 19
+Method 25: Class: java.lang.Thread Signature: setDaemon(Z)V Native id 18
+Method 26: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: <init>()V PC 11783 Signature id 2
+Method 27: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: sendCommand()V PC 11891 Signature id 539
+Method 28: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: recvReply()I PC 11975 Signature id 540
+Method 29: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: reset()V PC 12140 Signature id 240
+Method 30: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: processReply()V PC 12376 Signature id 541
+Method 31: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: processCommands()V PC 12677 Signature id 542
+Method 32: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: selectChan()I PC 12745 Signature id 543
+Method 33: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: processStreams()V PC 12799 Signature id 544
+Method 34: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: waitSwitch(IZ)I PC 12956 Signature id 545
+Method 35: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: switchToStream(I)Z PC 13023 Signature id 546
+Method 36: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: switchToCmd()V PC 13094 Signature id 547
+Method 37: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: bc4Mode()I PC 13211 Signature id 548
+Method 38: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: waitInit()V PC 13226 Signature id 549
+Method 39: Class: lejos.nxt.comm.Bluetooth$BTThread Signature: run()V PC 13261 Signature id 1
+Method 40: Class: lejos.nxt.Motor$Regulator Signature: <init>(Llejos/nxt/Motor;)V PC 13279 Signature id 596
+Method 41: Class: lejos.nxt.Motor$Regulator Signature: calcPower(I)I PC 13314 Signature id 597
+Method 42: Class: lejos.nxt.Motor$Regulator Signature: reset()V PC 13360 Signature id 240
+Method 43: Class: lejos.nxt.Motor$Regulator Signature: run()V PC 13442 Signature id 1
+Method 44: Class: lejos.nxt.Motor$Regulator Signature: stopAtLimit()V PC 13987 Signature id 598
+Method 45: Class: lejos.nxt.Motor$Regulator Signature: angleAtStop()I PC 14223 Signature id 599
+Method 46: Class: lejos.nxt.ListenerThread Signature: <init>()V PC 14285 Signature id 2
+Method 47: Class: lejos.nxt.ListenerThread Signature: get()Llejos/nxt/ListenerThread; PC 14301 Signature id 483
+Method 48: Class: lejos.nxt.ListenerThread Signature: addToMask(ILlejos/nxt/ListenerCaller;)V PC 14366 Signature id 484
+Method 49: Class: lejos.nxt.ListenerThread Signature: addSensorToMask(ILlejos/nxt/ListenerCaller;)V PC 14437 Signature id 485
+Method 50: Class: lejos.nxt.ListenerThread Signature: run()V PC 14446 Signature id 1
+Method 51: Class: lejos.nxt.ListenerThread Signature: <clinit>()V PC 14516 Signature id 3
+Method 52: Class: melmac.core.threading.ThreadImpl Signature: <init>(Lmelmac/core/threading/Runnable;)V PC 14531 Signature id 622
+Method 53: Class: melmac.core.threading.ThreadImpl Signature: run()V PC 14541 Signature id 1
+Method 54: Class: melmac.core.logging.CommunicationsLogger Signature: <init>(ILmelmac/core/comms/CommunicationsBase;ILmelmac/core/logging/Logger;)V PC 14551 Signature id 421
+Method 55: Class: melmac.core.logging.CommunicationsLogger Signature: log(ZII[III)V PC 14581 Signature id 221
+Method 56: Class: melmac.masterblock.logging.JavaLogger Signature: <init>(Lmelmac/core/comms/CommunicationsBase;ILmelmac/core/logging/Logger;)V PC 14690 Signature id 228
+Method 57: Class: melmac.core.logging.LoggerBase Signature: <init>(I)V PC 14699 Signature id 120
+Method 58: Class: melmac.core.logging.LoggerBase Signature: log(ZII)V PC 14716 Signature id 262
+Method 59: Class: melmac.core.logging.LoggerBase Signature: log(ZIII)V PC 14732 Signature id 263
+Method 60: Class: melmac.core.logging.LoggerBase Signature: log(ZII[III)V PC 0 Signature id 221
+Method 61: Class: melmac.masterblock.logging.ScreenLogger Signature: <init>(II)V PC 14757 Signature id 220
+Method 62: Class: melmac.masterblock.logging.ScreenLogger Signature: log(ZII[III)V PC 14789 Signature id 221
+Method 63: Class: melmac.masterblock.comms.RcxCommunications Signature: <init>(Lmelmac/core/logging/Logger;Llejos/nxt/SensorPort;)V PC 14997 Signature id 229
+Method 64: Class: melmac.masterblock.comms.RcxCommunications Signature: turnLightOn()V PC 15086 Signature id 230
+Method 65: Class: melmac.masterblock.comms.RcxCommunications Signature: turnLightOff()V PC 15095 Signature id 231
+Method 66: Class: melmac.masterblock.comms.RcxCommunications Signature: getMessageProcessor()Lmelmac/core/comms/MessageProcessor; PC 15104 Signature id 225
+Method 67: Class: melmac.masterblock.comms.RcxCommunications Signature: getMessageSender()Lmelmac/core/comms/MessageSender; PC 15109 Signature id 226
+Method 68: Class: melmac.masterblock.comms.RcxCommunications Signature: getLightReceiver()Lmelmac/core/comms/LightReceiver; PC 15114 Signature id 232
+Method 69: Class: melmac.core.comms.CommunicationsBase Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;ILjava/lang/String;Z)V PC 15119 Signature id 517
+Method 70: Class: melmac.core.comms.CommunicationsBase Signature: getMessageProcessor()Lmelmac/core/comms/MessageProcessor; PC 0 Signature id 225
+Method 71: Class: melmac.core.comms.CommunicationsBase Signature: getMessageSender()Lmelmac/core/comms/MessageSender; PC 0 Signature id 226
+Method 72: Class: melmac.core.comms.CommunicationsBase Signature: sendInt(I)V PC 0 Signature id 341
+Method 73: Class: melmac.core.comms.CommunicationsBase Signature: sendEnd()V PC 0 Signature id 340
+Method 74: Class: melmac.core.comms.CommunicationsBase Signature: onConnect()Z PC 15165 Signature id 339
+Method 75: Class: melmac.core.comms.CommunicationsBase Signature: onDisconnect()V PC 15167 Signature id 224
+Method 76: Class: melmac.core.comms.CommunicationsBase Signature: onStart()V PC 15168 Signature id 342
+Method 77: Class: melmac.core.comms.CommunicationsBase Signature: reset()V PC 15202 Signature id 240
+Method 78: Class: melmac.core.comms.CommunicationsBase Signature: connect()Z PC 15221 Signature id 424
+Method 79: Class: melmac.core.comms.CommunicationsBase Signature: disconnect()V PC 15422 Signature id 414
+Method 80: Class: melmac.core.comms.CommunicationsBase Signature: isClearToSend()Z PC 15526 Signature id 463
+Method 81: Class: melmac.core.comms.CommunicationsBase Signature: isConnected()Z PC 15558 Signature id 518
+Method 82: Class: melmac.core.comms.CommunicationsBase Signature: isReceiving()Z PC 15563 Signature id 519
+Method 83: Class: melmac.core.comms.CommunicationsBase Signature: setMessageHandler(ILmelmac/core/comms/MessageHandler;)V PC 15568 Signature id 348
+Method 84: Class: melmac.core.comms.CommunicationsBase Signature: sendSync(I)V PC 15580 Signature id 464
+Method 85: Class: melmac.core.comms.CommunicationsBase Signature: sendSync(I[II)V PC 15590 Signature id 465
+Method 86: Class: melmac.core.comms.CommunicationsBase Signature: sendAsync(I[II)V PC 15604 Signature id 466
+Method 87: Class: melmac.core.comms.CommunicationsBase Signature: canStartSend()Z PC 15618 Signature id 520
+Method 88: Class: melmac.core.comms.CommunicationsBase Signature: startSend()Z PC 15657 Signature id 521
+Method 89: Class: melmac.core.comms.CommunicationsBase Signature: completeSend()V PC 15673 Signature id 522
+Method 90: Class: melmac.core.comms.CommunicationsBase Signature: startReceive()Z PC 15679 Signature id 523
+Method 91: Class: melmac.core.comms.CommunicationsBase Signature: completeReceive(I[II)V PC 15776 Signature id 524
+Method 92: Class: melmac.core.comms.DataInputStreamCommunications Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;ILjava/lang/String;)V PC 15833 Signature id 338
+Method 93: Class: melmac.core.comms.DataInputStreamCommunications Signature: getDataStreams()Lmelmac/core/comms/DataInputStreamCommunications$DataStreams; PC 0 Signature id 223
+Method 94: Class: melmac.core.comms.DataInputStreamCommunications Signature: onConnect()Z PC 15844 Signature id 339
+Method 95: Class: melmac.core.comms.DataInputStreamCommunications Signature: onDisconnect()V PC 15890 Signature id 224
+Method 96: Class: melmac.core.comms.DataInputStreamCommunications Signature: sendEnd()V PC 15926 Signature id 340
+Method 97: Class: melmac.core.comms.DataInputStreamCommunications Signature: sendInt(I)V PC 15934 Signature id 341
+Method 98: Class: melmac.core.comms.DataInputStreamCommunications Signature: onStart()V PC 15943 Signature id 342
+Method 99: Class: melmac.core.comms.DataInputStreamCommunications Signature: getDataInputStreamReceiver()Lmelmac/core/comms/DataInputStreamReceiver; PC 0 Signature id 227
+Method 100: Class: melmac.masterblock.comms.JavaCommunications Signature: <init>(Lmelmac/core/logging/Logger;)V PC 15955 Signature id 222
+Method 101: Class: melmac.masterblock.comms.JavaCommunications Signature: getDataStreams()Lmelmac/core/comms/DataInputStreamCommunications$DataStreams; PC 16024 Signature id 223
+Method 102: Class: melmac.masterblock.comms.JavaCommunications Signature: onDisconnect()V PC 16073 Signature id 224
+Method 103: Class: melmac.masterblock.comms.JavaCommunications Signature: getMessageProcessor()Lmelmac/core/comms/MessageProcessor; PC 16106 Signature id 225
+Method 104: Class: melmac.masterblock.comms.JavaCommunications Signature: getMessageSender()Lmelmac/core/comms/MessageSender; PC 16111 Signature id 226
+Method 105: Class: melmac.masterblock.comms.JavaCommunications Signature: getDataInputStreamReceiver()Lmelmac/core/comms/DataInputStreamReceiver; PC 16116 Signature id 227
+Method 106: Class: melmac.core.comms.ControllingLightCommunications Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;IILjava/lang/String;Z)V PC 16121 Signature id 422
+Method 107: Class: melmac.core.comms.ControllingLightCommunications Signature: onStart()V PC 16139 Signature id 342
+Method 108: Class: melmac.core.comms.ControllingLightCommunications Signature: sendReset()V PC 16163 Signature id 423
+Method 109: Class: melmac.core.comms.ControllingLightCommunications Signature: connect()Z PC 16204 Signature id 424
+Method 110: Class: melmac.core.comms.ControllingLightCommunications Signature: disconnect()V PC 16219 Signature id 414
+Method 111: Class: melmac.core.comms.LightCommunications Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;ILjava/lang/String;Z)V PC 16235 Signature id 517
+Method 112: Class: melmac.core.comms.LightCommunications Signature: getLightReceiver()Lmelmac/core/comms/LightReceiver; PC 0 Signature id 232
+Method 113: Class: melmac.core.comms.LightCommunications Signature: turnLightOn()V PC 0 Signature id 230
+Method 114: Class: melmac.core.comms.LightCommunications Signature: turnLightOff()V PC 0 Signature id 231
+Method 115: Class: melmac.core.comms.LightCommunications Signature: sendInt(I)V PC 16252 Signature id 341
+Method 116: Class: melmac.core.comms.LightCommunications Signature: sendEnd()V PC 16282 Signature id 340
+Method 117: Class: melmac.core.comms.LightCommunications Signature: pulse(I)V PC 16288 Signature id 590
+Method 118: Class: melmac.core.comms.LightCommunications Signature: onConnect()Z PC 16311 Signature id 339
+Method 119: Class: melmac.core.comms.LightCommunications Signature: onDisconnect()V PC 16343 Signature id 224
+Method 120: Class: melmac.core.comms.LightCommunications Signature: otherSeen()V PC 16349 Signature id 591
+Method 121: Class: melmac.core.comms.LightCommunications Signature: onStart()V PC 16381 Signature id 342
+Method 122: Class: melmac.masterblock.comms.RcxLightReceiver Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Lmelmac/masterblock/comms/RcxCommunications;)V PC 16412 Signature id 425
+Method 123: Class: melmac.masterblock.comms.RcxLightReceiver Signature: stateChanged(Llejos/nxt/SensorPort;II)V PC 16425 Signature id 426
+Method 124: Class: melmac.masterblock.control.CollisionListener Signature: <init>(Lmelmac/masterblock/control/CollisionHandler;I)V PC 16432 Signature id 462
+Method 125: Class: melmac.masterblock.control.CollisionListener Signature: stateChanged(Llejos/nxt/SensorPort;II)V PC 16442 Signature id 426
+Method 126: Class: lejos.nxt.SensorPort Signature: <init>(I)V PC 16449 Signature id 120
+Method 127: Class: lejos.nxt.SensorPort Signature: reset()V PC 16505 Signature id 240
+Method 128: Class: lejos.nxt.SensorPort Signature: addSensorPortListener(Llejos/nxt/SensorPortListener;)V PC 16550 Signature id 241
+Method 129: Class: lejos.nxt.SensorPort Signature: setTypeAndMode(II)V PC 16596 Signature id 242
+Method 130: Class: lejos.nxt.SensorPort Signature: setType(I)V PC 16607 Signature id 243
+Method 131: Class: lejos.nxt.SensorPort Signature: setMode(I)V PC 16771 Signature id 244
+Method 132: Class: lejos.nxt.SensorPort Signature: readSensorValue(I)I Native id 30
+Method 133: Class: lejos.nxt.SensorPort Signature: setPowerType(I)V PC 16785 Signature id 249
+Method 134: Class: lejos.nxt.SensorPort Signature: setPowerTypeById(II)V Native id 31
+Method 135: Class: lejos.nxt.SensorPort Signature: callListeners()V PC 16794 Signature id 250
+Method 136: Class: lejos.nxt.SensorPort Signature: setSensorPinMode(III)V Native id 110
+Method 137: Class: lejos.nxt.SensorPort Signature: setSensorPin(III)V Native id 108
+Method 138: Class: lejos.nxt.SensorPort Signature: setSensorPinMode(II)V PC 16841 Signature id 251
+Method 139: Class: lejos.nxt.SensorPort Signature: setSensorPin(II)V PC 16851 Signature id 252
+Method 140: Class: lejos.nxt.SensorPort Signature: <clinit>()V PC 16861 Signature id 3
+Method 141: Class: melmac.masterblock.comms.handlers.MoveMessageHandler Signature: <init>(Lmelmac/masterblock/control/Controller;)V PC 17119 Signature id 261
+Method 142: Class: melmac.masterblock.comms.handlers.MoveMessageHandler Signature: handle(I[II)Z PC 17129 Signature id 258
+Method 143: Class: melmac.core.comms.handlers.LogMessageHandler Signature: <init>(Lmelmac/core/logging/Logger;)V PC 17144 Signature id 222
+Method 144: Class: melmac.core.comms.handlers.LogMessageHandler Signature: handle(I[II)Z PC 17162 Signature id 258
+Method 145: Class: melmac.masterblock.comms.handlers.StopMessageHandler Signature: <init>(Lmelmac/masterblock/control/Controller;)V PC 17203 Signature id 261
+Method 146: Class: melmac.masterblock.comms.handlers.StopMessageHandler Signature: handle(I[II)Z PC 17213 Signature id 258
+Method 147: Class: melmac.masterblock.comms.handlers.SpinMessageHandler Signature: <init>(Lmelmac/masterblock/control/Controller;)V PC 17222 Signature id 261
+Method 148: Class: melmac.masterblock.comms.handlers.SpinMessageHandler Signature: handle(I[II)Z PC 17232 Signature id 258
+Method 149: Class: melmac.masterblock.comms.handlers.CollisionMessageHandler Signature: <init>(Lmelmac/masterblock/control/CollisionHandler;)V PC 17247 Signature id 257
+Method 150: Class: melmac.masterblock.comms.handlers.CollisionMessageHandler Signature: handle(I[II)Z PC 17257 Signature id 258
+Method 151: Class: melmac.masterblock.comms.handlers.KickMessageHandler Signature: <init>(Lmelmac/masterblock/comms/RcxCommunications;)V PC 17269 Signature id 260
+Method 152: Class: melmac.masterblock.comms.handlers.KickMessageHandler Signature: handle(I[II)Z PC 17279 Signature id 258
+Method 153: Class: melmac.masterblock.comms.handlers.CurvedMoveMessageHandler Signature: <init>(Lmelmac/masterblock/control/Controller;)V PC 17291 Signature id 261
+Method 154: Class: melmac.masterblock.comms.handlers.CurvedMoveMessageHandler Signature: handle(I[II)Z PC 17301 Signature id 258
+Method 155: Class: melmac.masterblock.comms.handlers.ResetMessageHandler Signature: <init>()V PC 17325 Signature id 2
+Method 156: Class: melmac.masterblock.comms.handlers.ResetMessageHandler Signature: handle(I[II)Z PC 17335 Signature id 258
+Method 157: Class: melmac.masterblock.comms.handlers.ResetMessageHandler Signature: waitForReset()V PC 17346 Signature id 259
+Method 158: Class: melmac.core.comms.AsyncMessageProcessor Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Ljava/lang/String;Lmelmac/core/comms/CommunicationsBase;II)V PC 17366 Signature id 346
+Method 159: Class: melmac.core.comms.AsyncMessageProcessor Signature: reset()V PC 17507 Signature id 240
+Method 160: Class: melmac.core.comms.AsyncMessageProcessor Signature: checkReset()V PC 17513 Signature id 347
+Method 161: Class: melmac.core.comms.AsyncMessageProcessor Signature: setMessageHandler(ILmelmac/core/comms/MessageHandler;)V PC 17609 Signature id 348
+Method 162: Class: melmac.core.comms.AsyncMessageProcessor Signature: process(I[II)V PC 17636 Signature id 349
+Method 163: Class: melmac.core.comms.AsyncMessageProcessor Signature: checkState(Z)I PC 17788 Signature id 350
+Method 164: Class: melmac.core.comms.AsyncMessageProcessor Signature: shouldWait()Z PC 17842 Signature id 351
+Method 165: Class: melmac.core.comms.AsyncMessageProcessor Signature: execute()Z PC 17856 Signature id 352
+Method 166: Class: melmac.core.comms.AsyncMessageProcessor Signature: isSubscriber()Z PC 18021 Signature id 353
+Method 167: Class: melmac.core.comms.AsyncMessageSender Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Ljava/lang/String;Lmelmac/core/comms/CommunicationsBase;)V PC 18023 Signature id 354
+Method 168: Class: melmac.core.comms.AsyncMessageSender Signature: reset()V PC 18146 Signature id 240
+Method 169: Class: melmac.core.comms.AsyncMessageSender Signature: acknowledgementReceived()V PC 18244 Signature id 355
+Method 170: Class: melmac.core.comms.AsyncMessageSender Signature: send(IZ[II)V PC 18309 Signature id 356
+Method 171: Class: melmac.core.comms.AsyncMessageSender Signature: isFull()Z PC 18554 Signature id 357
+Method 172: Class: melmac.core.comms.AsyncMessageSender Signature: onException(Ljava/lang/Exception;)Z PC 18582 Signature id 345
+Method 173: Class: melmac.core.comms.AsyncMessageSender Signature: checkState(Z)I PC 18591 Signature id 350
+Method 174: Class: melmac.core.comms.AsyncMessageSender Signature: shouldWait()Z PC 18645 Signature id 351
+Method 175: Class: melmac.core.comms.AsyncMessageSender Signature: execute()Z PC 18669 Signature id 352
+Method 176: Class: melmac.core.comms.AsyncMessageSender Signature: isSubscriber()Z PC 18860 Signature id 353
+Method 177: Class: melmac.core.comms.LightReceiver Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;IILmelmac/core/comms/LightCommunications;)V PC 18862 Signature id 592
+Method 178: Class: melmac.core.comms.LightReceiver Signature: isLightOn(I)Z PC 18901 Signature id 593
+Method 179: Class: melmac.core.comms.LightReceiver Signature: stateChanged(II)V PC 18933 Signature id 594
+Method 180: Class: melmac.core.comms.LightReceiver Signature: onStart()V PC 19347 Signature id 342
+Method 181: Class: melmac.core.comms.Watchdog Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Ljava/lang/String;Lmelmac/core/comms/CommunicationsBase;)V PC 19387 Signature id 354
+Method 182: Class: melmac.core.comms.Watchdog Signature: shouldWait()Z PC 19417 Signature id 351
+Method 183: Class: melmac.core.comms.Watchdog Signature: execute()Z PC 19419 Signature id 352
+Method 184: Class: melmac.core.control.CollisionHandlerBase Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/comms/Communications;I)V PC 19429 Signature id 461
+Method 185: Class: melmac.core.control.CollisionHandlerBase Signature: handleCollision(I)V PC 19456 Signature id 239
+Method 186: Class: melmac.masterblock.control.CollisionHandler Signature: <init>(Lmelmac/core/logging/Logger;[Llejos/nxt/SensorPort;Lmelmac/masterblock/control/Controller;Lmelmac/core/comms/Communications;)V PC 19507 Signature id 238
+Method 187: Class: melmac.masterblock.control.CollisionHandler Signature: handleCollision(I)V PC 19556 Signature id 239
+Method 188: Class: melmac.masterblock.comms.NxtDataInputStreamReceiver Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Ljava/lang/String;Lmelmac/core/comms/DataInputStreamCommunications;)V PC 19569 Signature id 344
+Method 189: Class: melmac.masterblock.comms.NxtDataInputStreamReceiver Signature: onException(Ljava/lang/Exception;)Z PC 19579 Signature id 345
+Method 190: Class: melmac.core.threading.ProcessBase Signature: <init>(Lmelmac/core/logging/Logger;II)V PC 19588 Signature id 604
+Method 191: Class: melmac.core.threading.ProcessBase Signature: start()V PC 19608 Signature id 9
+Method 192: Class: melmac.core.threading.ProcessBase Signature: isRunning()Z PC 19675 Signature id 605
+Method 193: Class: melmac.core.threading.ProcessBase Signature: onStart()V PC 19680 Signature id 342
+Method 194: Class: melmac.core.threading.ProcessBase Signature: waitCheckRunning()Z PC 19681 Signature id 606
+Method 195: Class: melmac.core.threading.ProcessBase Signature: getLogger()Lmelmac/core/logging/Logger; PC 19705 Signature id 607
+Method 196: Class: melmac.core.threading.AsyncProcess Signature: <init>(Lmelmac/core/logging/Logger;IIIILjava/lang/String;)V PC 19710 Signature id 531
+Method 197: Class: melmac.core.threading.AsyncProcess Signature: execute()Z PC 0 Signature id 352
+Method 198: Class: melmac.core.threading.AsyncProcess Signature: shouldWait()Z PC 0 Signature id 351
+Method 199: Class: melmac.core.threading.AsyncProcess Signature: onStart()V PC 19736 Signature id 342
+Method 200: Class: melmac.core.threading.AsyncProcess Signature: onException(Ljava/lang/Exception;)Z PC 19782 Signature id 345
+Method 201: Class: melmac.core.threading.AsyncProcess Signature: signal()V PC 19784 Signature id 532
+Method 202: Class: melmac.core.threading.AsyncProcess Signature: access$000(Lmelmac/core/threading/AsyncProcess;)I PC 19804 Signature id 533
+Method 203: Class: melmac.core.comms.DataInputStreamReceiver Signature: <init>(Lmelmac/core/logging/Logger;Lmelmac/core/logging/LogMessages;Ljava/lang/String;Lmelmac/core/comms/DataInputStreamCommunications;)V PC 19809 Signature id 344
+Method 204: Class: melmac.core.comms.DataInputStreamReceiver Signature: shouldWait()Z PC 19856 Signature id 351
+Method 205: Class: melmac.core.comms.DataInputStreamReceiver Signature: execute()Z PC 19869 Signature id 352
+Method 206: Class: melmac.core.comms.DataInputStreamReceiver Signature: setDataInputStream(Ljava/io/DataInputStream;)V PC 19995 Signature id 525
+Method 207: Class: melmac.core.comms.DataInputStreamReceiver Signature: closeDataInputStream()V PC 20005 Signature id 526
+Method 208: Class: lejos.nxt.MotorPort Signature: <init>(I)V PC 20025 Signature id 120
+Method 209: Class: lejos.nxt.MotorPort Signature: controlMotor(II)V PC 20040 Signature id 602
+Method 210: Class: lejos.nxt.MotorPort Signature: controlMotorById(III)V Native id 49
+Method 211: Class: lejos.nxt.MotorPort Signature: getTachoCount()I PC 20093 Signature id 445
+Method 212: Class: lejos.nxt.MotorPort Signature: getTachoCountById(I)I Native id 48
+Method 213: Class: lejos.nxt.MotorPort Signature: setPWMMode(I)V PC 20104 Signature id 603
+Method 214: Class: lejos.nxt.MotorPort Signature: <clinit>()V PC 20110 Signature id 3
+Method 215: Class: lejos.nxt.Motor Signature: <init>(Llejos/nxt/TachoMotorPort;)V PC 20147 Signature id 432
+Method 216: Class: lejos.nxt.Motor Signature: forward()V PC 20271 Signature id 433
+Method 217: Class: lejos.nxt.Motor Signature: backward()V PC 20318 Signature id 434
+Method 218: Class: lejos.nxt.Motor Signature: stop()V PC 20365 Signature id 234
+Method 219: Class: lejos.nxt.Motor Signature: updateState(I)V PC 20371 Signature id 435
+Method 220: Class: lejos.nxt.Motor Signature: isMoving()Z PC 20479 Signature id 436
+Method 221: Class: lejos.nxt.Motor Signature: rotate(I)V PC 20508 Signature id 437
+Method 222: Class: lejos.nxt.Motor Signature: rotate(IZ)V PC 20519 Signature id 438
+Method 223: Class: lejos.nxt.Motor Signature: rotateTo(I)V PC 20533 Signature id 439
+Method 224: Class: lejos.nxt.Motor Signature: rotateTo(IZ)V PC 20540 Signature id 440
+Method 225: Class: lejos.nxt.Motor Signature: setSpeed(I)V PC 20645 Signature id 441
+Method 226: Class: lejos.nxt.Motor Signature: setPower(I)V PC 20718 Signature id 442
+Method 227: Class: lejos.nxt.Motor Signature: overshoot(I)I PC 20741 Signature id 443
+Method 228: Class: lejos.nxt.Motor Signature: timedOut()V PC 20815 Signature id 444
+Method 229: Class: lejos.nxt.Motor Signature: getTachoCount()I PC 20846 Signature id 445
+Method 230: Class: lejos.nxt.Motor Signature: access$000(Llejos/nxt/Motor;)F PC 20856 Signature id 447
+Method 231: Class: lejos.nxt.Motor Signature: access$100(Llejos/nxt/Motor;)I PC 20861 Signature id 448
+Method 232: Class: lejos.nxt.Motor Signature: access$202(Llejos/nxt/Motor;Z)Z PC 20866 Signature id 449
+Method 233: Class: lejos.nxt.Motor Signature: access$300(Llejos/nxt/Motor;)Z PC 20873 Signature id 450
+Method 234: Class: lejos.nxt.Motor Signature: access$400(Llejos/nxt/Motor;)Z PC 20878 Signature id 451
+Method 235: Class: lejos.nxt.Motor Signature: access$500(Llejos/nxt/Motor;)V PC 20883 Signature id 452
+Method 236: Class: lejos.nxt.Motor Signature: access$200(Llejos/nxt/Motor;)Z PC 20888 Signature id 453
+Method 237: Class: lejos.nxt.Motor Signature: access$600(Llejos/nxt/Motor;)I PC 20893 Signature id 454
+Method 238: Class: lejos.nxt.Motor Signature: access$700(Llejos/nxt/Motor;)I PC 20898 Signature id 455
+Method 239: Class: lejos.nxt.Motor Signature: access$800(Llejos/nxt/Motor;)Z PC 20903 Signature id 456
+Method 240: Class: lejos.nxt.Motor Signature: access$900(Llejos/nxt/Motor;)B PC 20908 Signature id 457
+Method 241: Class: lejos.nxt.Motor Signature: access$1000(Llejos/nxt/Motor;)I PC 20913 Signature id 458
+Method 242: Class: lejos.nxt.Motor Signature: access$1100(Llejos/nxt/Motor;)I PC 20918 Signature id 459
+Method 243: Class: lejos.nxt.Motor Signature: access$802(Llejos/nxt/Motor;Z)Z PC 20923 Signature id 460
+Method 244: Class: lejos.nxt.Motor Signature: <clinit>()V PC 20930 Signature id 3
+Method 245: Class: melmac.core.threading.AsyncProcess$Runner Signature: <init>(Lmelmac/core/threading/AsyncProcess;)V PC 20970 Signature id 610
+Method 246: Class: melmac.core.threading.AsyncProcess$Runner Signature: run()V PC 20980 Signature id 1
+Method 247: Class: melmac.core.threading.AsyncProcess$Runner Signature: <init>(Lmelmac/core/threading/AsyncProcess;Lmelmac/core/threading/AsyncProcess$1;)V PC 21141 Signature id 611
+Method 248: Class: melmac.masterblock.Program Signature: main([Ljava/lang/String;)V PC 21147 Signature id 0
+Method 249: Class: java.lang.System Signature: arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V Native id 24
+Method 250: Class: java.lang.System Signature: currentTimeMillis()J Native id 22
+Method 251: Class: java.lang.System Signature: <clinit>()V PC 21399 Signature id 3
+Method 252: Class: java.lang.StringBuilder Signature: ensureCapacity(I)V PC 21434 Signature id 182
+Method 253: Class: java.lang.StringBuilder Signature: <init>()V PC 21493 Signature id 2
+Method 254: Class: java.lang.StringBuilder Signature: append(Ljava/lang/String;)Ljava/lang/StringBuilder; PC 21511 Signature id 183
+Method 255: Class: java.lang.StringBuilder Signature: append(I)Ljava/lang/StringBuilder; PC 21517 Signature id 187
+Method 256: Class: java.lang.StringBuilder Signature: appendInternal(Ljava/lang/String;)Ljava/lang/StringBuilder; PC 21555 Signature id 188
+Method 257: Class: java.lang.StringBuilder Signature: toString()Ljava/lang/String; PC 21606 Signature id 118
+Method 258: Class: java.lang.RuntimeException Signature: <init>()V PC 21623 Signature id 2
+Method 259: Class: java.lang.RuntimeException Signature: <init>(Ljava/lang/String;)V PC 21628 Signature id 119
+Method 260: Class: java.lang.Exception Signature: <init>()V PC 21634 Signature id 2
+Method 261: Class: java.lang.Exception Signature: <init>(Ljava/lang/String;)V PC 21639 Signature id 119
+Method 262: Class: java.lang.IndexOutOfBoundsException Signature: <init>()V PC 21645 Signature id 2
+Method 263: Class: java.lang.IndexOutOfBoundsException Signature: <init>(Ljava/lang/String;)V PC 21650 Signature id 119
+Method 264: Class: java.lang.StringIndexOutOfBoundsException Signature: <init>()V PC 21656 Signature id 2
+Method 265: Class: java.lang.StringIndexOutOfBoundsException Signature: <init>(I)V PC 21661 Signature id 120
+Method 266: Class: java.lang.StringUtils Signature: getIntChars([CIII)I PC 21685 Signature id 207
+Method 267: Class: java.lang.StringUtils Signature: exactStringLength(II)I PC 21737 Signature id 209
+Method 268: Class: melmac.masterblock.control.Controller Signature: <init>()V PC 21760 Signature id 2
+Method 269: Class: melmac.masterblock.control.Controller Signature: wheel(ILlejos/nxt/Motor;)V PC 21797 Signature id 233
+Method 270: Class: melmac.masterblock.control.Controller Signature: stop()V PC 21831 Signature id 234
+Method 271: Class: melmac.masterblock.control.Controller Signature: move(II)V PC 21870 Signature id 235
+Method 272: Class: melmac.masterblock.control.Controller Signature: spin(II)V PC 22014 Signature id 236
+Method 273: Class: melmac.masterblock.control.Controller Signature: curvedMove(IIIII)V PC 22105 Signature id 237
+Method 274: Class: melmac.masterblock.control.Controller Signature: <clinit>()V PC 22377 Signature id 3
+Method 275: Class: java.io.PrintStream Signature: <init>(Ljava/io/OutputStream;)V PC 22387 Signature id 286
+Method 276: Class: java.io.PrintStream Signature: write(I)V PC 22397 Signature id 287
+Method 277: Class: java.io.PrintStream Signature: flush()V PC 22410 Signature id 289
+Method 278: Class: lejos.nxt.LCDOutputStream Signature: <init>()V PC 22422 Signature id 2
+Method 279: Class: lejos.nxt.LCDOutputStream Signature: write(I)V PC 22432 Signature id 287
+Method 280: Class: java.lang.Character Signature: forDigit(II)C PC 22491 Signature id 299
+Method 281: Class: java.lang.Character Signature: <clinit>()V PC 22538 Signature id 3
+Method 282: Class: java.lang.Math Signature: min(II)I PC 22543 Signature id 302
+Method 283: Class: java.lang.Math Signature: floor(D)D PC 22554 Signature id 303
+Method 284: Class: java.lang.Math Signature: round(D)J PC 22603 Signature id 304
+Method 285: Class: java.lang.Math Signature: toRadians(D)D PC 22613 Signature id 309
+Method 286: Class: java.lang.Math Signature: sin_chebypade(D)D PC 22619 Signature id 310
+Method 287: Class: java.lang.Math Signature: cos_chebypade(D)D PC 22663 Signature id 311
+Method 288: Class: java.lang.Math Signature: sin(D)D PC 22711 Signature id 312
+Method 289: Class: java.lang.Math Signature: cos(D)D PC 22800 Signature id 313
+Method 290: Class: java.lang.Math Signature: <clinit>()V PC 22889 Signature id 3
+Method 291: Class: java.lang.StringBuffer Signature: ensureCapacity(I)V PC 22963 Signature id 182
+Method 292: Class: java.lang.StringBuffer Signature: <init>()V PC 23022 Signature id 2
+Method 293: Class: java.lang.StringBuffer Signature: delete(II)Ljava/lang/StringBuffer; PC 23040 Signature id 325
+Method 294: Class: java.lang.StringBuffer Signature: append(Ljava/lang/String;)Ljava/lang/StringBuffer; PC 23120 Signature id 326
+Method 295: Class: java.lang.StringBuffer Signature: append(C)Ljava/lang/StringBuffer; PC 23126 Signature id 327
+Method 296: Class: java.lang.StringBuffer Signature: append(I)Ljava/lang/StringBuffer; PC 23155 Signature id 330
+Method 297: Class: java.lang.StringBuffer Signature: appendInternal(Ljava/lang/String;)Ljava/lang/StringBuffer; PC 23193 Signature id 331
+Method 298: Class: java.lang.StringBuffer Signature: length()I PC 23244 Signature id 132
+Method 299: Class: java.lang.StringBuffer Signature: substring(II)Ljava/lang/String; PC 23249 Signature id 141
+Method 300: Class: melmac.core.logging.SourceExt Signature: toString(I)Ljava/lang/String; PC 23321 Signature id 196
+Method 301: Class: melmac.core.logging.SeverityExt Signature: toString(I)Ljava/lang/String; PC 23381 Signature id 196
+Method 302: Class: melmac.core.logging.LogMessageExt Signature: toString(IZ)Ljava/lang/String; PC 23434 Signature id 332
+Method 303: Class: lejos.nxt.LCD Signature: bitBlt([BIIIIIIIII)V PC 24100 Signature id 333
+Method 304: Class: lejos.nxt.LCD Signature: bitBlt(IIIII)V PC 24127 Signature id 334
+Method 305: Class: lejos.nxt.LCD Signature: drawChar(CIIZ)V PC 24153 Signature id 335
+Method 306: Class: lejos.nxt.LCD Signature: drawString(Ljava/lang/String;II)V Native id 36
+Method 307: Class: lejos.nxt.LCD Signature: getDisplay()[B Native id 42
+Method 308: Class: lejos.nxt.LCD Signature: getSystemFont()[B Native id 45
+Method 309: Class: lejos.nxt.LCD Signature: bitBlt([BIIII[BIIIIIII)V Native id 44
+Method 310: Class: lejos.nxt.LCD Signature: scroll()V PC 24202 Signature id 337
+Method 311: Class: lejos.nxt.LCD Signature: <clinit>()V PC 24235 Signature id 3
+Method 312: Class: lejos.nxt.comm.Bluetooth Signature: btWrite([BII)I Native id 64
+Method 313: Class: lejos.nxt.comm.Bluetooth Signature: btRead([BII)I Native id 65
+Method 314: Class: lejos.nxt.comm.Bluetooth Signature: btPending()I Native id 66
+Method 315: Class: lejos.nxt.comm.Bluetooth Signature: btSetArmCmdMode(I)V Native id 61
+Method 316: Class: lejos.nxt.comm.Bluetooth Signature: btGetBC4CmdMode()I Native id 60
+Method 317: Class: lejos.nxt.comm.Bluetooth Signature: btSetResetLow()V Native id 62
+Method 318: Class: lejos.nxt.comm.Bluetooth Signature: btSetResetHigh()V Native id 63
+Method 319: Class: lejos.nxt.comm.Bluetooth Signature: btEnable()V Native id 97
+Method 320: Class: lejos.nxt.comm.Bluetooth Signature: cmdInit(IIII)V PC 24248 Signature id 358
+Method 321: Class: lejos.nxt.comm.Bluetooth Signature: startTimeout(I)V PC 24277 Signature id 359
+Method 322: Class: lejos.nxt.comm.Bluetooth Signature: checkTimeout()Z PC 24287 Signature id 360
+Method 323: Class: lejos.nxt.comm.Bluetooth Signature: cancelTimeout()V PC 24309 Signature id 361
+Method 324: Class: lejos.nxt.comm.Bluetooth Signature: waitState(I)I PC 24314 Signature id 362
+Method 325: Class: lejos.nxt.comm.Bluetooth Signature: cmdStart()V PC 24385 Signature id 363
+Method 326: Class: lejos.nxt.comm.Bluetooth Signature: cmdComplete()V PC 24406 Signature id 364
+Method 327: Class: lejos.nxt.comm.Bluetooth Signature: cmdWait(IIII)I PC 24436 Signature id 365
+Method 328: Class: lejos.nxt.comm.Bluetooth Signature: setPin([B)V PC 24523 Signature id 366
+Method 329: Class: lejos.nxt.comm.Bluetooth Signature: getPin()[B PC 24528 Signature id 367
+Method 330: Class: lejos.nxt.comm.Bluetooth Signature: closeConnection(B)I PC 24532 Signature id 368
+Method 331: Class: lejos.nxt.comm.Bluetooth Signature: openPort()[B PC 24685 Signature id 369
+Method 332: Class: lejos.nxt.comm.Bluetooth Signature: closePort()[B PC 24745 Signature id 370
+Method 333: Class: lejos.nxt.comm.Bluetooth Signature: waitForConnection(II[B)Llejos/nxt/comm/BTConnection; PC 24806 Signature id 371
+Method 334: Class: lejos.nxt.comm.Bluetooth Signature: waitForConnection()Llejos/nxt/comm/BTConnection; PC 25102 Signature id 372
+Method 335: Class: lejos.nxt.comm.Bluetooth Signature: getFriendlyName()Ljava/lang/String; PC 25109 Signature id 379
+Method 336: Class: lejos.nxt.comm.Bluetooth Signature: getLocalAddress()Ljava/lang/String; PC 25187 Signature id 380
+Method 337: Class: lejos.nxt.comm.Bluetooth Signature: getConnectionStatus()[B PC 25265 Signature id 385
+Method 338: Class: lejos.nxt.comm.Bluetooth Signature: setOperatingMode(B)I PC 25326 Signature id 386
+Method 339: Class: lejos.nxt.comm.Bluetooth Signature: reset()V PC 25372 Signature id 240
+Method 340: Class: lejos.nxt.comm.Bluetooth Signature: checkDevice()I PC 25404 Signature id 387
+Method 341: Class: lejos.nxt.comm.Bluetooth Signature: setPower(Z)V PC 25454 Signature id 388
+Method 342: Class: lejos.nxt.comm.Bluetooth Signature: loadSettings()V PC 25571 Signature id 389
+Method 343: Class: lejos.nxt.comm.Bluetooth Signature: access$000()V PC 25618 Signature id 391
+Method 344: Class: lejos.nxt.comm.Bluetooth Signature: access$100()Z PC 25622 Signature id 392
+Method 345: Class: lejos.nxt.comm.Bluetooth Signature: access$200(I)V PC 25626 Signature id 393
+Method 346: Class: lejos.nxt.comm.Bluetooth Signature: access$300(IIII)V PC 25631 Signature id 394
+Method 347: Class: lejos.nxt.comm.Bluetooth Signature: access$400()[B PC 25639 Signature id 395
+Method 348: Class: lejos.nxt.comm.Bluetooth Signature: <clinit>()V PC 25643 Signature id 3
+Method 349: Class: melmac.core.comms.DataInputStreamCommunications$DataStreams Signature: <init>(Lmelmac/core/comms/DataInputStreamCommunications;Ljava/io/DataInputStream;Ljava/io/DataOutputStream;)V PC 25706 Signature id 396
+Method 350: Class: lejos.nxt.comm.NXTConnection Signature: <init>()V PC 25726 Signature id 2
+Method 351: Class: lejos.nxt.comm.NXTConnection Signature: flushBuffer(Z)I PC 0 Signature id 398
+Method 352: Class: lejos.nxt.comm.NXTConnection Signature: write([BIZ)I PC 25736 Signature id 399
+Method 353: Class: lejos.nxt.comm.NXTConnection Signature: fillBuffer(Z)I PC 0 Signature id 400
+Method 354: Class: lejos.nxt.comm.NXTConnection Signature: read([BIZ)I PC 25970 Signature id 401
+Method 355: Class: lejos.nxt.comm.NXTConnection Signature: setHeader(I)V PC 26446 Signature id 404
+Method 356: Class: lejos.nxt.comm.NXTConnection Signature: setIOMode(I)V PC 26466 Signature id 405
+Method 357: Class: lejos.nxt.comm.NXTConnection Signature: read([BI)I PC 26489 Signature id 406
+Method 358: Class: lejos.nxt.comm.NXTConnection Signature: write([BI)I PC 26497 Signature id 407
+Method 359: Class: lejos.nxt.comm.NXTConnection Signature: openInputStream()Ljava/io/InputStream; PC 26505 Signature id 408
+Method 360: Class: lejos.nxt.comm.NXTConnection Signature: openOutputStream()Ljava/io/OutputStream; PC 26542 Signature id 409
+Method 361: Class: lejos.nxt.comm.NXTConnection Signature: openDataInputStream()Ljava/io/DataInputStream; PC 26579 Signature id 410
+Method 362: Class: lejos.nxt.comm.NXTConnection Signature: openDataOutputStream()Ljava/io/DataOutputStream; PC 26591 Signature id 411
+Method 363: Class: lejos.nxt.comm.NXTConnection Signature: disconnected()Z PC 26603 Signature id 412
+Method 364: Class: lejos.nxt.comm.NXTConnection Signature: sendEOF()V PC 26633 Signature id 413
+Method 365: Class: lejos.nxt.comm.NXTConnection Signature: disconnect()V PC 26694 Signature id 414
+Method 366: Class: lejos.nxt.comm.NXTConnection Signature: freeConnection()V PC 26700 Signature id 415
+Method 367: Class: lejos.nxt.comm.NXTConnection Signature: close()V PC 26701 Signature id 416
+Method 368: Class: melmac.core.logging.LogMessages Signature: <init>(ILjava/lang/String;)V PC 26933 Signature id 418
+Method 369: Class: melmac.core.logging.LogMessages Signature: getPrefix()Ljava/lang/String; PC 27172 Signature id 419
+Method 370: Class: melmac.core.logging.LogMessages Signature: getBase()I PC 27177 Signature id 420
+Method 371: Class: melmac.core.logging.LogMessages Signature: <clinit>()V PC 27182 Signature id 3
+Method 372: Class: lejos.nxt.LightSensor Signature: <init>(Llejos/nxt/ADSensorPort;Z)V PC 27243 Signature id 428
+Method 373: Class: lejos.nxt.LightSensor Signature: setFloodlight(Z)V PC 27294 Signature id 429
+Method 374: Class: lejos.nxt.SensorPort$SensorReader Signature: <init>(Llejos/nxt/SensorPort;)V PC 27319 Signature id 467
+Method 375: Class: lejos.nxt.SensorPort$SensorReader Signature: setType(I)V PC 27329 Signature id 243
+Method 376: Class: lejos.nxt.SensorPort$SensorReader Signature: setMode(I)V PC 27330 Signature id 244
+Method 377: Class: lejos.nxt.SensorPort$SensorReader Signature: reset()V PC 27331 Signature id 240
+Method 378: Class: lejos.nxt.SensorPort$StandardReader Signature: <init>(Llejos/nxt/SensorPort;)V PC 27332 Signature id 467
+Method 379: Class: java.io.OutputStream Signature: <init>()V PC 27343 Signature id 2
+Method 380: Class: java.io.OutputStream Signature: write(I)V PC 0 Signature id 287
+Method 381: Class: java.io.OutputStream Signature: flush()V PC 27348 Signature id 289
+Method 382: Class: java.io.OutputStream Signature: close()V PC 27349 Signature id 416
+Method 383: Class: java.io.IOException Signature: <init>()V PC 27350 Signature id 2
+Method 384: Class: java.util.Random Signature: <init>(J)V PC 27355 Signature id 501
+Method 385: Class: melmac.core.utils.Constants Signature: <clinit>()V PC 27371 Signature id 3
+Method 386: Class: melmac.core.logging.LogMessagesExt Signature: toString(Lmelmac/core/logging/LogMessages;IZ)Ljava/lang/String; PC 27378 Signature id 516
+Method 387: Class: java.io.DataOutputStream Signature: <init>(Ljava/io/OutputStream;)V PC 28225 Signature id 286
+Method 388: Class: java.io.DataOutputStream Signature: incCount(I)V PC 28231 Signature id 527
+Method 389: Class: java.io.DataOutputStream Signature: write(I)V PC 28251 Signature id 287
+Method 390: Class: java.io.DataOutputStream Signature: writeInt(I)V PC 28265 Signature id 529
+Method 391: Class: lejos.nxt.comm.NXTCommDevice Signature: addressToString([B)Ljava/lang/String; PC 28305 Signature id 537
+Method 392: Class: lejos.nxt.comm.NXTCommDevice Signature: nameToString([B)Ljava/lang/String; PC 28389 Signature id 538
+Method 393: Class: lejos.nxt.comm.NXTCommDevice Signature: loadSettings()V PC 28454 Signature id 389
+Method 394: Class: lejos.nxt.comm.NXTCommDevice Signature: <clinit>()V PC 28475 Signature id 3
+Method 395: Class: lejos.nxt.comm.BTConnection Signature: <init>(I)V PC 28586 Signature id 120
+Method 396: Class: lejos.nxt.comm.BTConnection Signature: reset()V PC 28618 Signature id 240
+Method 397: Class: lejos.nxt.comm.BTConnection Signature: bind(BLjava/lang/String;I)V PC 28638 Signature id 550
+Method 398: Class: lejos.nxt.comm.BTConnection Signature: sendEOF()V PC 28721 Signature id 413
+Method 399: Class: lejos.nxt.comm.BTConnection Signature: disconnect()V PC 28722 Signature id 414
+Method 400: Class: lejos.nxt.comm.BTConnection Signature: send()V PC 28731 Signature id 551
+Method 401: Class: lejos.nxt.comm.BTConnection Signature: flushBuffer(Z)I PC 28800 Signature id 398
+Method 402: Class: lejos.nxt.comm.BTConnection Signature: recv()V PC 28835 Signature id 552
+Method 403: Class: lejos.nxt.comm.BTConnection Signature: fillBuffer(Z)I PC 28942 Signature id 400
+Method 404: Class: lejos.nxt.comm.BTConnection Signature: needsAttention()Z PC 28971 Signature id 553
+Method 405: Class: lejos.nxt.comm.BTConnection Signature: pendingInput()Z PC 29022 Signature id 554
+Method 406: Class: lejos.nxt.comm.BTConnection Signature: flushInput()V PC 29036 Signature id 555
+Method 407: Class: lejos.nxt.SystemSettings Signature: getSlot(Ljava/lang/String;)I PC 29167 Signature id 575
+Method 408: Class: lejos.nxt.SystemSettings Signature: setSlot(ILjava/lang/String;)V PC 29199 Signature id 576
+Method 409: Class: lejos.nxt.SystemSettings Signature: getValue(I)Ljava/lang/String; PC 29257 Signature id 577
+Method 410: Class: lejos.nxt.SystemSettings Signature: getStringSetting(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; PC 29329 Signature id 578
+Method 411: Class: lejos.nxt.SystemSettings Signature: setSetting(Ljava/lang/String;Ljava/lang/String;)V PC 29356 Signature id 579
+Method 412: Class: lejos.nxt.SystemSettings Signature: <clinit>()V PC 29378 Signature id 3
+Method 413: Class: lejos.nxt.comm.NXTInputStream Signature: <init>(Llejos/nxt/comm/NXTConnection;I)V PC 29490 Signature id 580
+Method 414: Class: lejos.nxt.comm.NXTInputStream Signature: read()I PC 29522 Signature id 581
+Method 415: Class: lejos.nxt.comm.NXTInputStream Signature: close()V PC 29616 Signature id 416
+Method 416: Class: lejos.nxt.comm.NXTOutputStream Signature: <init>(Llejos/nxt/comm/NXTConnection;I)V PC 29627 Signature id 580
+Method 417: Class: lejos.nxt.comm.NXTOutputStream Signature: write(I)V PC 29654 Signature id 287
+Method 418: Class: lejos.nxt.comm.NXTOutputStream Signature: flush()V PC 29692 Signature id 289
+Method 419: Class: java.io.DataInputStream Signature: <init>(Ljava/io/InputStream;)V PC 29731 Signature id 582
+Method 420: Class: java.io.DataInputStream Signature: readByte0()I PC 29737 Signature id 583
+Method 421: Class: java.io.DataInputStream Signature: readInt()I PC 29763 Signature id 585
+Method 422: Class: lejos.util.Delay Signature: msDelay(J)V PC 29800 Signature id 588
+Method 423: Class: lejos.nxt.BasicMotor Signature: <init>()V PC 29852 Signature id 2
+Method 424: Class: lejos.nxt.Battery Signature: getBatteryStatus()I Native id 46
+Method 425: Class: lejos.nxt.Battery Signature: getVoltageMilliVolt()I PC 29888 Signature id 600
+Method 426: Class: lejos.nxt.Battery Signature: getVoltage()F PC 29896 Signature id 601
+Method 427: Class: melmac.core.control.CollisionListenerBase Signature: <init>(Lmelmac/core/control/CollisionHandlerBase;II)V PC 29906 Signature id 608
+Method 428: Class: melmac.core.control.CollisionListenerBase Signature: stateChanged(II)V PC 29926 Signature id 594
+Method 429: Class: lejos.nxt.Poll Signature: <init>(Z)V PC 30013 Signature id 509
+Method 430: Class: lejos.nxt.Poll Signature: <init>()V PC 30022 Signature id 2
+Method 431: Class: lejos.nxt.Poll Signature: poll(II)I PC 30027 Signature id 609
+Method 432: Class: lejos.nxt.Poll Signature: setPoller()V Native id 32
+Method 433: Class: lejos.nxt.Poll Signature: <clinit>()V PC 30096 Signature id 3
+Method 434: Class: java.io.FilterOutputStream Signature: <init>(Ljava/io/OutputStream;)V PC 30108 Signature id 286
+Method 435: Class: java.io.FilterOutputStream Signature: close()V PC 30118 Signature id 416
+Method 436: Class: java.io.FilterOutputStream Signature: flush()V PC 30143 Signature id 289
+Method 437: Class: java.io.FilterOutputStream Signature: write(I)V PC 30151 Signature id 287
+Method 438: Class: melmac.core.threading.ThreadFactory Signature: <init>()V PC 30160 Signature id 2
+Method 439: Class: melmac.core.threading.ThreadFactory Signature: constructImpl(Lmelmac/core/threading/Runnable;Ljava/lang/String;)Ljava/lang/Thread; PC 0 Signature id 612
+Method 440: Class: melmac.core.threading.ThreadFactory Signature: construct(Lmelmac/core/threading/Runnable;Ljava/lang/String;)Ljava/lang/Thread; PC 30165 Signature id 613
+Method 441: Class: melmac.core.threading.ThreadFactory Signature: <clinit>()V PC 30187 Signature id 3
+Method 442: Class: lejos.nxt.Flash Signature: flashReadPage([BI)I Native id 71
+Method 443: Class: lejos.nxt.Flash Signature: flashWritePage([BI)I Native id 70
+Method 444: Class: lejos.nxt.Flash Signature: readPage([BI)V PC 30208 Signature id 617
+Method 445: Class: lejos.nxt.Flash Signature: writePage([BI)V PC 30227 Signature id 618
+Method 446: Class: lejos.nxt.Flash Signature: <clinit>()V PC 30314 Signature id 3
+Method 447: Class: java.io.InputStream Signature: <init>()V PC 30327 Signature id 2
+Method 448: Class: java.io.InputStream Signature: read()I PC 0 Signature id 581
+Method 449: Class: java.io.InputStream Signature: close()V PC 30332 Signature id 416
+Method 450: Class: java.io.FilterInputStream Signature: <init>(Ljava/io/InputStream;)V PC 30333 Signature id 582
+Method 451: Class: java.io.FilterInputStream Signature: close()V PC 30343 Signature id 416
+Method 452: Class: java.io.FilterInputStream Signature: read()I PC 30351 Signature id 581
+Method 453: Class: java.io.EOFException Signature: <init>()V PC 30359 Signature id 2
+Method 454: Class: melmac.core.threading.UnnamedThreadFactory Signature: <init>()V PC 30364 Signature id 2
+Method 455: Class: melmac.core.threading.UnnamedThreadFactory Signature: constructImpl(Lmelmac/core/threading/Runnable;Ljava/lang/String;)Ljava/lang/Thread; PC 30369 Signature id 612
+Method 456: Class: lejos.nxt.FlashError Signature: <init>(Ljava/lang/String;)V PC 30378 Signature id 119
+Method 457: Class: lejos.nxt.NXT Signature: getUserPages()I Native id 95
+Master record    : 20 bytes.
+Class records    : 150 (1800 bytes).
+Field records    : 252 (252 bytes).
+Static fields    : 68 (136 bytes).
+Static state     : 68 (300 bytes).
+Constant records : 184 (736 bytes).
+Constant values  : 184 (1676 bytes).
+Method records   : 458 (5496 bytes).
+Exception records: 174 (1392 bytes).
+Interface maps   : 15 (20 bytes).
+Code             : 403 (18852 bytes).
+Total            : 30384 bytes.
+Run time options : <NONE>
+Constant loads   : 137N 13O 0W 137S
+Static load/store: 41N 269O
+Field  load/store: 538N 543O

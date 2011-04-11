@@ -1,0 +1,223 @@
+DEBUG:root:Cannot access camera device 0, working with token frames ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [GANDALF, 5000]
+DEBUG:root:Vision Server: [192.168.0.2, 55380] opened connection ...
+DEBUG:root:VisionServer: [192.168.0.2, 55380] sent: [1, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55380]: [1, 6, 580, 295, 75, 225, 75, 225]
+DEBUG:root:VisionServer: [192.168.0.2, 55380] sent: [4, 0]
+DEBUG:root:TODO: RESET
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55380]: [0, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55380] sent: [2, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55380] sent: [3, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55380]: [0, 0]
+DEBUG:root:Vision Server: [192.168.0.2,55380] closed connection ...
+DEBUG:root:Vision Server: [192.168.0.2, 55381] opened connection ...
+DEBUG:root:VisionServer: [192.168.0.2, 55381] sent: [1, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55381]: [1, 6, 580, 295, 75, 225, 75, 225]
+DEBUG:root:VisionServer: [192.168.0.2, 55381] sent: [4, 0]
+DEBUG:root:TODO: RESET
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55381]: [0, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55381] sent: [2, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55381] sent: [3, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55381]: [0, 0]
+DEBUG:root:Vision Server: [192.168.0.2,55381] closed connection ...
+DEBUG:root:Vision Server: [192.168.0.2, 55382] opened connection ...
+DEBUG:root:VisionServer: [192.168.0.2, 55382] sent: [1, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55382]: [1, 6, 580, 295, 75, 225, 75, 225]
+DEBUG:root:VisionServer: [192.168.0.2, 55382] sent: [4, 0]
+DEBUG:root:TODO: RESET
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55382]: [0, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55382] sent: [2, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55382] sent: [3, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55382]: [0, 0]
+DEBUG:root:Vision Server: [192.168.0.2,55382] closed connection ...
+DEBUG:root:Vision Server: [192.168.0.2, 55384] opened connection ...
+DEBUG:root:VisionServer: [192.168.0.2, 55384] sent: [1, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55384]: [1, 6, 580, 295, 75, 225, 75, 225]
+DEBUG:root:VisionServer: [192.168.0.2, 55384] sent: [4, 0]
+DEBUG:root:TODO: RESET
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55384]: [0, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55384] sent: [2, 0]
+DEBUG:root:VisionServer: [192.168.0.2, 55384] sent: [3, 0]
+DEBUG:root:Vision Server: Replied to [192.168.0.2, 55384]: [0, 0]
+DEBUG:root:Vision Server: [192.168.0.2,55384] closed connection ...
+Traceback (most recent call last):
+  File "D:\SDP\sdp2\trunk\Melmac.Vision\src\melmac\python\src\vision\VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "D:\SDP\sdp2\trunk\Melmac.Vision\src\melmac\python\src\vision\VisionProcessor.py", line 216, in detect_objects
+    cv.CvtColor(img, rgb_img, cv.CV_BGR2RGB)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [Dimitar-Dimitrovs-MacBook-Pro.local, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 201, in detect_objects
+    img = self.cam_.get_frame()
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/Camera.py", line 40, in get_frame
+    return cv.QueryFrame(self.cap_)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 323, in detect_objects
+    print self.bal_center
+AttributeError: VisionProcessor instance has no attribute 'bal_center'
+DEBUG:root:Vision Server: Started on [unknown9027e4f34fdf.tiscali.co.uk, 5000]
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [unknown9027e4f34fdf.tiscali.co.uk, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 231, in detect_objects
+    dil_mat[0], dil_mat[1], 0, 0, 0), dil)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [unknown9027e4f34fdf.tiscali.co.uk, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 355, in detect_objects
+    (bal_vel, blu_vel, ylw_vel))
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/gui/VisionGUI.py", line 143, in display_visual_feedback
+    cv.WaitKey(1000/35)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 354, in detect_objects
+    (bal_vel, blu_vel, ylw_vel))
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/gui/VisionGUI.py", line 143, in display_visual_feedback
+    cv.WaitKey(1000/35)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 356, in detect_objects
+    (bal_vel, blu_vel, ylw_vel))
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/gui/VisionGUI.py", line 143, in display_visual_feedback
+    cv.WaitKey(1000/35)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 222, in detect_objects
+    (3, 3), 3, (3, 3), 3)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 379, in detect_ball
+    cv.Copy(trsh_im, tmp_im)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 246, in detect_objects
+    ylw_bin_img, ylw_center, ylw_dir, y_ang = self.detect_robot(ylw_trsh)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 390, in detect_robot
+    t_contour, t_center, ang = self.detect_robot_via_moments(trsh_im)
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 512, in detect_robot_via_moments
+    cv.Copy(trsh_im, tmp_im)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [mercedes.inf.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s08/s0830631/Desktop/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [unknown9027e4f34fdf.tiscali.co.uk, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 219, in detect_objects
+    (3, 3), 3, (3, 3), 3)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 365, in detect_ball
+    trsh_im = self.red_color_.in_range_s(hsv_img)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/ColorSpace.py", line 49, in in_range_s
+    cv.Scalar(self.mx_1_, self.mx_2_, self.mx_3_), dst)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 328, in detect_objects
+    print Locator.calc_future_point(Locator.smoothed_blue_cache, 1)
+TypeError: unbound method calc_future_point() must be called with Locator instance as first argument (got list instance instead)
+DEBUG:root:Vision Server: Started on [c041171.wlan.net.ed.ac.uk, 5000]
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 328, in detect_objects
+    print Locator.calc_future_point(Locator.smoothed_blue_cache, 1)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/helpers/Locator.py", line 176, in calc_future_point
+    future_point = Math.add_vectors(cache[len(cache)-1][0] + velocity)
+TypeError: add_vectors() takes at least 2 arguments (1 given)
+DEBUG:root:Vision Server: Started on [c041171.wlan.net.ed.ac.uk, 5000]
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [c041171.wlan.net.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 200, in detect_objects
+    img = self.cam_.get_frame()
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/Camera.py", line 40, in get_frame
+    return cv.QueryFrame(self.cap_)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 328, in detect_objects
+    print Locator.calc_future_point(Locator.smoothed_blue_cache, 1)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/helpers/Locator.py", line 175, in calc_future_point
+    velocity = Locator.calc_velocity_vector(cache, number_of_members)/60.0
+TypeError: unsupported operand type(s) for /: 'tuple' and 'float'
+DEBUG:root:Vision Server: Started on [c041171.wlan.net.ed.ac.uk, 5000]
+DEBUG:root:Vision Processor: Exiting ...
+DEBUG:root:Vision Server: Start attempt [1] ...
+DEBUG:root:Vision Server: Started on [c041171.wlan.net.ed.ac.uk, 5000]
+Traceback (most recent call last):
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 95, in run
+    prev_blu_dir, prev_ylw_dir)
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/vision/VisionProcessor.py", line 366, in detect_objects
+    (bal_vel, blu_vel, ylw_vel))
+  File "/Users/dimitardimitrov/Documents/SDP/trunk/Melmac.Vision/src/melmac/python/src/gui/VisionGUI.py", line 143, in display_visual_feedback
+    cv.WaitKey(1000/35)
+KeyboardInterrupt
+DEBUG:root:Vision Server: Exiting ...
+DEBUG:root:Vision Processor: Exiting ...
